@@ -64,3 +64,5 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 ---
 
 **Nota:** 
+
+Trata-se de conteúdo para fins acadêmicos.
