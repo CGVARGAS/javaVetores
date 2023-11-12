@@ -1,6 +1,6 @@
 # Estudo de Vetores em Java
 
-Este repositório contém um programa Java que exemplifica o uso de vetores para calcular a média de alturas levantadas. O código foi desenvolvido como parte de um estudo acadêmico.
+Este repositório contém programas Java que exemplifica o uso de vetores para calcular a média de alturas levantadas. O código foi desenvolvido como parte de um estudo acadêmico.
 
 ## O que são Arrays?
 
