@@ -51,7 +51,7 @@ Contribuições e melhorias são bem-vindas. Se você identificar oportunidades 
 
 ## Notas Adicionais
 
-Este programa faz parte de um estudo acadêmico sobre o uso de vetores em Java do curso Java Completo 2023 do instrutor Nelio Alves, adquirido na plataforma Udemi. 
+Este programa faz parte de um estudo acadêmico sobre o uso de vetores em Java do curso Java Completo 2023 do instrutor Nelio Alves, adquirido na plataforma Udemy.
 
 ## Aluno
 
@@ -66,3 +66,40 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 **Nota:** 
 
 Trata-se de conteúdo para fins acadêmicos.
+
+### Novo Código Java Adicionado
+
+```java
+package programa;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class NovoPrograma {
+
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Informe a quantidade de elementos: ");
+        int quantidade = sc.nextInt();
+        int[] novoArray = new int[quantidade];
+
+        for (int i = 0; i < quantidade; i++) {
+            System.out.printf("Informe o %dº elemento: ", i + 1);
+            novoArray[i] = sc.nextInt();
+        }
+
+        // Exemplo de cálculo da soma dos elementos
+        int soma = 0;
+        for (int i = 0; i < quantidade; i++) {
+            soma += novoArray[i];
+        }
+
+        System.out.println("Soma dos elementos: " + soma);
+        sc.close();
+    }
+}
+```
+
+Este novo código Java adicionado ao pacote "programa" é um exemplo simples que solicita ao usuário a quantidade de elementos, cria um array para armazenar esses elementos e calcula a soma deles. Esse exemplo visa ilustrar conceitos adicionais sobre o uso de arrays em Java.
