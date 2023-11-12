@@ -1,6 +1,6 @@
 # Estudo de Vetores em Java
 
-Este repositório contém programas Java que exemplifica o uso de vetores para calcular a média de alturas levantadas e média de notas alunos. O código foi desenvolvido como parte de um estudo acadêmico.
+Este repositório contém programas Java que exemplifica o uso de vetores para calcular a média de alturas levantadas e média de notas alunos. Os códigos foram desenvolvidos como parte de estudo acadêmico.
 
 ## O que são Arrays?
 
@@ -102,4 +102,4 @@ public class NovoPrograma {
 }
 ```
 
-Este novo código Java adicionado ao pacote "programa" é um exemplo simples que solicita ao usuário a quantidade de elementos, cria um array para armazenar esses elementos e calcula a soma deles. Esse exemplo visa ilustrar conceitos adicionais sobre o uso de arrays em Java.
+Este novo código Java adicionado ao pacote "programa" é um exemplo simples que solicita ao usuário a quantidade de elementos, cria um array para armazenar esses elementos e calcula a soma e a média deles. Esse exemplo visa ilustrar conceitos adicionais sobre o uso de arrays em Java.
